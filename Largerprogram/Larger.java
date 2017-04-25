@@ -4,7 +4,7 @@ public class Larger{
   //Functions need declared types as well.
   //Functions can only return one thing
   //Must declare types of the parameters
-  public static int larger(int x, int y) {
+  public static int larger (int x, int y) {
     if (x > y) {
       return x;
     }
