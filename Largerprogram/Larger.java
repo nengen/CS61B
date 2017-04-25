@@ -7,10 +7,8 @@ public class Larger{
   public static int larger(int x, int y) {
     if (x > y) {
       return x;
-      System.out.println(x);
     }
     return y;
-    System.out.println(y);
   }
 
   public static void main(String[] args) {
