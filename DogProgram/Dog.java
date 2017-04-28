@@ -22,4 +22,9 @@ public class Dog {
       System.out.println("woof woofity");
     }
   }
+  public static Dog maxDog(Dog d1, Dog d2) {
+    if (d1.size > d2.size)
+        return d1;
+    return d2;
+  }
 }
