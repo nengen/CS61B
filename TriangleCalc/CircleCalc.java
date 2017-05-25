@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 public class CircleCalc {
 
 	public static double pi = 3.14;
@@ -17,9 +18,9 @@ public class CircleCalc {
 		int radius = 5;
 		double areaOfCircle = areaCalc(radius);
 		double circumferenceOfCircle = circumferenceCalc(radius);
+		DecimalFormat df = new DecimalFormat("#.##");
 
-		System.out.println("A circle with a radius of " + radius + " has a area of " + areaOfCircle + " and a circumference of " + circumferenceOfCircle);
+		System.out.println("A circle with a radius of " + radius + " has a area of " + df.format(areaOfCircle) + " and a circumference of " + df.format(circumferenceOfCircle));
 	}
-
 
 }
